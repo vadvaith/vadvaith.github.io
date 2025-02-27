@@ -306,6 +306,7 @@ h3 {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
+  display: flex;
 }
 
 .full-height {

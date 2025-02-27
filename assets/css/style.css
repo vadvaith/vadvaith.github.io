@@ -83,7 +83,7 @@
 
 .readme {
   position: relative;
-  /* padding: 11px 35px; */
+  padding: 11px 35px;
   background: #fff;
   color: #00796b;
   border: 2px solid #fff;
@@ -102,7 +102,7 @@
 
 .contactme {
   position: relative;
-  /*padding: 11px 35px; */
+  padding: 11px 35px;
   background: none;
   color: #fff;
   border: 2px solid #fff;

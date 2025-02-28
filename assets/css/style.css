@@ -517,6 +517,8 @@ a.hoverline:hover {
 
 .card.medium .card-image {
   height: 240px;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
 }
 
 .card-action a.btn-floating {

@@ -509,6 +509,9 @@ a.hoverline:hover {
 
 .card.large .card-image {
   height: 230px;
+   justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  display: flex;
 }
 
 .card.large .card-content {
@@ -519,6 +522,9 @@ a.hoverline:hover {
   height: 240px;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
+  display: flex;
+    
+
 }
 
 .card-action a.btn-floating {

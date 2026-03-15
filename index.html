@@ -1,745 +1,723 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+  <title>Advaith Venkatsubramanian | Data Scientist & ML Engineer</title>
+  <meta name="description"
+    content="Advaith Venkatsubramanian — Data Scientist & ML Engineer specializing in AI, RAG systems, and full-stack development. MS Computer Science at ASU (4.0 GPA)." />
+  <meta name="author" content="Advaith Venkatsubramanian" />
+  <meta name="robots" content="index, follow" />
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Advaith Venkatsubramanian | MS CS at ASU</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
-  </script>
-
-  <!-- Open Graph-->
+  <!-- Open Graph -->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Advaith Venkatsubramanian | MS CS at ASU" />
+  <meta property="og:title" content="Advaith Venkatsubramanian | Data Scientist & ML Engineer" />
+  <meta property="og:description"
+    content="Data Scientist & ML Engineer specializing in AI, RAG systems, and full-stack development." />
   <meta property="og:url" content="https://vadvaith.github.io/" />
-  <meta property="og:site_name" content="Advaith Venkatsubramanian | MS CS at ASU" />
-  <meta property="article:publisher" content="https://vadvaith.github.io/" />
-  <meta property="og:image" content="https://vadvaitha.github.io/examples/preview.JPG" />
+  <meta property="og:site_name" content="Advaith Venkatsubramanian" />
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@varad_bhogayata" />
-  <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
-  <meta name="twitter:description" content="Software Developer" />
-  <meta name="twitter:url" content="https://twitter.com/varad_bhogayata" />
-  <meta name="author" content="Varad Bhogayata" />
-  <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <meta name="twitter:title" content="Advaith Venkatsubramanian | Data Scientist & ML Engineer" />
+  <meta name="twitter:description"
+    content="Data Scientist & ML Engineer specializing in AI, RAG systems, and full-stack development." />
+
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/adu.jpg" class="circle img-responsive profile-pic" alt="avatar">
+  <!-- ═══════════════════════════════════════════
+       MOBILE NAV
+       ═══════════════════════════════════════════ -->
+  <header class="mobile-nav" id="mobile-nav">
+    <span class="mobile-name">AV</span>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+
+  <!-- ═══════════════════════════════════════════
+       SIDE NAVIGATION
+       ═══════════════════════════════════════════ -->
+  <nav class="side-nav" id="side-nav" aria-label="Main navigation">
+    <div class="nav-profile">
+      <img src="/assets/img/adu.jpg" alt="Advaith Venkatsubramanian" class="profile-pic" />
+      <div class="nav-name">Advaith V.</div>
+      <div class="nav-title">Data Scientist & ML Engineer</div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li>
+        <a href="#hero" class="active" data-section="hero">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          Home
         </a>
       </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
+      <li>
+        <a href="#about" data-section="about">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          About
+        </a>
       </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      <li>
+        <a href="#experience" data-section="experience">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          Experience
+        </a>
       </li>
-
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      <li>
+        <a href="#projects" data-section="projects">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          Projects
+        </a>
       </li>
-
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      <li>
+        <a href="#skills" data-section="skills">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          Skills
+        </a>
       </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
+      <li>
+        <a href="#education" data-section="education">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 10 3 12 0v-5"></path>
+          </svg>
+          Education
+        </a>
       </li>
-
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        
-        <a aria-label="Open Advaith's resume in a new tab" href="https://vadvaith.github.io/assets/resume/Resume_AdvaithV.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      <li>
+        <a href="#contact" data-section="contact">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          Contact
+        </a>
       </li>
     </ul>
-  </nav>
 
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Advaith Venkatsubramanian</a><span class="black-text"></span>
+    <div class="nav-socials">
+      <a href="https://linkedin.com/in/advaith-v/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+        </svg>
+      </a>
+      <a href="https://github.com/vadvaith" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
+      <a href="mailto:avenk138@asu.edu" aria-label="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+      </a>
     </div>
   </nav>
 
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
+  <!-- ═══════════════════════════════════════════
+       MAIN CONTENT
+       ═══════════════════════════════════════════ -->
+  <main class="main-content">
 
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Varad's Resume in a new tab"
-          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption" style="margin-top: 50px;">
-              <h2> &#128075  Hi, I'm <span class="teal">Advaith Venkatsubramanian.</span></h2>
-              
-            </div>
-            <div class="social" style="margin-top: 30px;">
-              <a href="http://linkedin.com/in/advaith-v" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/vadvaith/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-
-            </div>
-            <div class='buttons' style="margin-top: 30px;">
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
+    <!-- ── HERO ── -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to Opportunities
         </div>
-      </div>
-    </section>
-
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-  
-        <p>
-          I am pursuing my Master's in Computer Science at Arizona State University. I have 3 years of work experience in the AI, Data Science and Analytics domain.
+        <h1>
+          Hi, I'm <span class="gradient-text">Advaith</span>.<br />
+          I build intelligent systems.
+        </h1>
+        <p class="hero-description">
+          Data Scientist & ML Engineer with 3+ years of experience building AI-driven solutions — from predictive
+          models and RAG pipelines to scalable data platforms. Currently pursuing my M.S. in Computer Science at
+          Arizona State University with a perfect 4.0 GPA.
         </p>
-        <p>
-          <ul>
-            <li><b>Languages and Libraries:</b> C, C++, Python, HTML/CSS, Pandas, Scikit-learn, Go, R, ReactJS, SQL</li>
-            <li><b>Frameworks:</b> TensorFlow, Flask, Apache Spark, PyTorch, Hadoop </li>
-            <li><b>Data Visualization:</b> Tableau, Power BI, Matplotlib, Seaborn, Plotly</li>
-            <li><b>Industry Tools and Technologies:</b> Linux, AWS (EC2, S3, Textract), Azure, Git, PostgreSQL, Office 365, Dataiku, Docker </li>
-          </ul>
-          
-      
-      </div>
-    </section>
-
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Professional Experience</h3>
-      <div class="container">
-
-        <!-- Latest Experience -->
-
-<div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://cecollaboratory.com/" target="_blank"><img alt="Collaboratory logo"
-                    src="/assets/img/collablogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://cecollaboratory.com/" target="_blank"
-                      class="teal-text hoverline">Collaboratory</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Development Analyst</div>
-            <ul>
-              <li>
-                Currently working for the ASU Social Embeddedness Network along with Collaboratory.
-              </li>
-              
-            </ul>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
           </div>
-          <div class="card-action">
-            <span>March 2025 - Present | Tempe, AZ, USA</span>
+          <div class="hero-stat">
+            <div class="stat-number">4.0</div>
+            <div class="stat-label">GPA at ASU</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Projects Built</div>
           </div>
         </div>
-
-
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.wabteccorp.com/" target="_blank"><img alt="Wabtec logo"
-                    src="/assets/img/wabteclogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.wabteccorp.com/" target="_blank"
-                      class="teal-text hoverline">Wabtec Corporation</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Data Scientist</div>
-            <ul>
-              <li>
-                Constructed a Machine Learning predictive model capable of predicting prices of locomotive parts with an accuracy of ~87% by leveraging Python, H20 framework and data preprocessing principles.
-              </li>
-              <li>
-                Led the development of an Optical Character Recognition (OCR) application to automatically read data from inspection sheets. Reduced time taken to manually digitize data by ~30%. Built using AWS Textract, Python, Postgres, Flask and AWS EC2.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>October 2023 - August 2024 | Bengaluru, India</span>
-          </div>
-        </div>
-
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.wabteccorp.com/" target="_blank"><img alt="wabtec logo"
-                    src="/assets/img/wabteclogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.wabteccorp.com/" target="_blank"
-                      class="teal-text hoverline">Wabtec Corporation</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Data Engineering Specialist</div>
-            <ul>
-              <li>
-                Implemented an OCR pipeline to read files from an FTP server, perform character recognition on documents and generate configuration files based on document type. Helped to cut down on third party vendor costs.
-              </li>
-              <li>
-                Crafted an operations chatbot capable of helping users find links to applications, policies and documents. Instrumental in making all resources available via a single point of reference.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2021 - September 2023 | Bengaluru, India</span>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                 <a href="https://www.wabteccorp.com/" target="_blank">
-                <img alt="Wabtec logo" src="/assets/img/wabteclogo.png" class="responsive-img center-block" />
-
-              </div>
-
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Wabtec Corporation</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Intern</div>
-            <ul>
-              <li>
-                Created an operations chatbot using Microsoft Bot Framework capable of incident management, helping users in troubleshooting issues and service request management on ServiceNow.
-              </li>
-              <li>
-                Leveraged Fuzzy Matching and Cosine Similarity to group together similar customers on several attributes from a dataset of ~120k records. Helped in reducing redundancy and processing time.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>January 2021 - July 2021 | Bengaluru, India</span>
-          </div>
-        </div>
-
-        <!-- Experience 3 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.mahindra.com/" target="_blank"><img alt="Mahindra logo"
-                    src="/assets/img/mahindralogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.mahindra.com/" target="_blank"
-                      class="teal-text hoverline">Mahindra & Mahindra </a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Intern</div>
-            <ul>
-              <li>
-              	Designed an interactive chatbot with principles of Natural Language Processing (NLP), Rasa NLU and the Rasa Core framework.
-              </li>
-              
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>May 2019 - July 2019 | Mumbai, India</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="" src="/assets/img/ml.png" style="height: 200px; width: 200px" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Identification of Age-Related Conditions<i
-                    class="mdi-navigation-more-vert right"></i></span>
-               
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, TensorFlow, Jupyter Notebook</li>
-
-                  
-                  <li>Developed a model to predict whether a person is suffering from a particular health condition or not. Data consists of measurements of various health characteristics. Achieved accuracy of 93%.</li>
-    
-
-                </ul>
-        
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="" src="/assets/img/game.png" style="height: 200px; width: 200px" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Game Catalog Application<i
-                    class="mdi-navigation-more-vert right"></i></span>
-              
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> ReactJS, HTML, CSS, Vite</li>
-
-                  
-                  <li>Created an interactive application to browse and view an extensive catalog of games. Added search functionality to filter out games. Developed used.</li>
-                  
-
-                </ul>
-                
-              </div>
-            </div>
-          </div>
-
-         
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="" src="/assets/img/bot.png"
-                style="height: 200px; width: 200px" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Hewlett Packard Enterprise In-Semester Project	<i
-                    class="mdi-navigation-more-vert right"></i></span>
-              
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Natural Language Processing, Rasa Core, Rasa NLU, SQL</li>
-
-                  
-                  <li>Led the in-semester team project conducted by HPE where we formed an interactive chatbot to help users troubleshoot issues  with HPE devices, get access to product manuals or trigger automatic emails to customer care.</li>
-
-                </ul>
-                
-              </div>
-            </div>
-          </div>
-
-          
-
-          
-          <!-- ************* -->
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            Get in Touch
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="/assets/resume/Resume_AdvaithV.pdf" target="_blank" class="btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            View Resume
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Languages</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />SQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/cpplogo.png" class="responsive-img" />C++
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Libraries</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Frameworks -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sparklogo.png" class="responsive-img" />Apache Spark
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Other -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Industry Technologies</h4>
-            <div class="row text-center">
-
-
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/azurelogo.png" class="responsive-img" />Azure
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/dockerlogo.png" class="responsive-img" />Docker
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank" class="teal-text hoverline">Arizona State University</a></span>
-                </p>
-                <p class="brown-text">Tempe, USA</p>
-                <p>
-                  <b>Degree: </b>Master of Science in Computer Science      
-                  <br>
-                  <b>CGPA: </b>4.0/4.0
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Data Processing at Scale</li>
-                    <li>Data Mining</li>
-                    <li>Foundations of Algorithms</li>
-                    <li>Foundations of Machine Learning</li>
-                    <li>Information Assurance and Security</li>   
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-
-            
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.manipal.edu/mu.html" target="_blank" class="teal-text hoverline">Manipal Academy of Higher Education</a></span>
-                </p>
-                <p class="brown-text">Manipal, India</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Technology in Computer and Communication
-                  <br>
-                  <b>CGPA: </b>8.08/10.00
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Database Management Systems</li>
-                    <li>Operating Systems</li>
-                    <li>Machine Learning</li>
-                    <li>Computer Vision</li>
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Advaith" data-position="top" data-tooltip="Call Advaith"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Advaith">+1 602-751-0672</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Advaith" href="mailto:advaithvenkat@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Advaith" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Advaith" href="mailto:advaithvenkat@gmail.com"
-              class="hoverline">advaithvenkat@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Advaith on GitHub" href="http://github.com/vadvaith" target="_blank"
-            data-position="top" data-tooltip="View Advaith on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="http://github.com/vadvaith" class="hoverline"
-              target="_blank">github.com/vadvaith</a></a>
-        </p>
-        <p>
-          <a aria-label="View Advaith on LinkedIn" href="http://linkedin.com/in/advaith-v" target="_blank"
-            data-position="top" data-tooltip="View Advaith on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Advaith on LinkedIn" href="http://linkedin.com/in/advaith-v"
-              class="hoverline" target="_blank">linkedin.com/in/advaith-v</a></a>
+    <!-- ── ABOUT ── -->
+    <section id="about" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Bridging Data, AI & Engineering</h2>
+        <p class="section-subtitle">
+          From building predictive pricing models to designing RAG-powered AI assistants, I love turning complex data
+          challenges into impactful solutions.
         </p>
       </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Master's student in Computer Science at <strong>Arizona State University</strong>, graduating in May
+            2026. Before grad school, I spent 3+ years at <strong>Wabtec Corporation</strong> as a Data Scientist,
+            where I built ML models for locomotive pricing, automated OCR pipelines, and helped design
+            operational chatbots.
+          </p>
+          <p>
+            Currently, I'm working as an Analyst at <strong>ASU Social Embeddedness</strong>, where I build Tableau
+            KPI dashboards, develop RAG-based AI assistants, and lead React migrations. I'm passionate about the
+            intersection of AI, data engineering, and applied machine learning.
+          </p>
+          <p>
+            I thrive in fast-paced environments where I can combine analytical thinking with full-stack engineering
+            to deliver solutions that make a real difference.
+          </p>
+        </div>
+
+        <div class="about-highlights reveal stagger-children">
+          <div class="highlight-card">
+            <div class="highlight-icon">🤖</div>
+            <div class="highlight-title">AI & Machine Learning</div>
+            <div class="highlight-desc">RAG, LLMs, NLP, Deep Learning</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">📊</div>
+            <div class="highlight-title">Data Science</div>
+            <div class="highlight-desc">Predictive Modeling, Analytics</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🔧</div>
+            <div class="highlight-title">Data Engineering</div>
+            <div class="highlight-desc">ETL/ELT, Pipelines, Cloud</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">💻</div>
+            <div class="highlight-title">Full-Stack Dev</div>
+            <div class="highlight-desc">React, Go, Flask, Docker</div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">Experience</div>
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-subtitle">
+          From engineering intern to data scientist — building impactful solutions across industries.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- ASU Social Embeddedness -->
+        <div class="timeline-item reveal">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Analyst</div>
+                <div class="timeline-company">ASU Social Embeddedness</div>
+              </div>
+              <span class="timeline-date">Mar 2025 – Present</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built <strong>8 Tableau KPI</strong> visualizations to forecast donation trends and support budget
+                planning for St. Mary's Food Bank.</li>
+              <li>Developed a <strong>RAG-based AI assistant</strong> (OpenAI, Python) that cut activity creation time
+                by <strong>60%</strong>.</li>
+              <li>Led migration from Vanilla JS to React, delivering <strong>10+</strong> scalable, reusable React
+                pages.</li>
+              <li>Engineered and maintained a <strong>React, Golang, PostgreSQL, Docker</strong> platform to improve
+                performance and maintainability.</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Go</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Tableau</span>
+              <span class="tech-tag">OpenAI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wabtec - Data Scientist -->
+        <div class="timeline-item reveal">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Data Scientist</div>
+                <div class="timeline-company">Wabtec Corporation</div>
+              </div>
+              <span class="timeline-date">Jul 2021 – Aug 2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed a <strong>predictive pricing model</strong> (H2O, Random Forest) that improved locomotive
+                part cost forecasts with <strong>87% accuracy</strong>, reducing procurement errors and saving an
+                estimated <strong>10%</strong> in annual spend.</li>
+              <li>Designed and deployed an <strong>ML system for root cause detection</strong>, leveraging TF-IDF + SVM
+                text classification on part descriptions, improving diagnostic accuracy by <strong>32%</strong>.</li>
+              <li>Productionized an <strong>OCR pipeline</strong> (Textract, Flask, PostgreSQL, EC2, Jenkins) that
+                automated document digitization, cutting processing time by <strong>30%</strong> and improving data
+                reliability for 12 internal users.</li>
+              <li>Implemented an <strong>ETL pipeline</strong> to group similar customers in MDM dataset (~120k
+                records) using Fuzzy Matching and Cosine Similarity, reducing data redundancy and processing time.</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">H2O</span>
+              <span class="tech-tag">TF-IDF</span>
+              <span class="tech-tag">SVM</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">AWS Textract</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">EC2</span>
+              <span class="tech-tag">Jenkins</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">Projects</div>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-subtitle">
+          A selection of projects combining AI, data engineering, and software development.
+        </p>
+      </div>
+
+      <div class="projects-grid stagger-children reveal">
+        <!-- TrustMed AI -->
+        <div class="project-card">
+          <div class="project-icon">🏥</div>
+          <div class="project-title">TrustMed AI</div>
+          <div class="project-metric">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+              <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>
+            85% relevance · &lt;8s response
+          </div>
+          <p class="project-description">
+            End-to-end backend-driven AI assistant using Python, AWS, Pinecone and Chainlit UI. Exposes
+            API-based retrieval services with 85% relevance and sub-8-second response time.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pinecone</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">LLaMA</span>
+          </div>
+        </div>
+
+        <!-- Dengue Forecasting -->
+        <div class="project-card">
+          <div class="project-icon">🦟</div>
+          <div class="project-title">Dengue Outbreak Time Series Forecasting</div>
+          <p class="project-description">
+            Leveraged the ARIMA algorithm to forecast dengue cases reported across different regions using historical
+            data. Built analytical models for time series prediction and epidemiological trend analysis.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">ARIMA</span>
+            <span class="tech-tag">Time Series</span>
+            <span class="tech-tag">Pandas</span>
+          </div>
+        </div>
+
+        <!-- Airbnb ELT Pipeline -->
+        <div class="project-card">
+          <div class="project-icon">🏠</div>
+          <div class="project-title">Airbnb Listings ELT Pipeline</div>
+          <p class="project-description">
+            Designed an automated ELT pipeline using Snowflake, dbt, SQL, and AWS S3 to ingest, transform, and
+            validate large-scale data for analytics-ready integration.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Snowflake</span>
+            <span class="tech-tag">dbt</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">AWS S3</span>
+          </div>
+        </div>
+
+        <!-- Age-Related Conditions -->
+        <div class="project-card">
+          <div class="project-icon">🧬</div>
+          <div class="project-title">Identification of Age-Related Conditions</div>
+          <div class="project-metric">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+              <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>
+            93% Accuracy
+          </div>
+          <p class="project-description">
+            Preprocessed and normalized over 110K+ health records to build a predictive model determining whether a
+            person is suffering from an age-related health condition.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">Sklearn</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">Skills</div>
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-subtitle">
+          Technologies and tools I use to build AI-powered, data-driven applications.
+        </p>
+      </div>
+
+      <div class="skills-grid stagger-children reveal">
+        <div class="skill-category">
+          <div class="skill-category-title">Languages & Libraries</div>
+          <div class="skill-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">HTML/CSS</span>
+            <span class="skill-pill">Go</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Shell Scripting</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Generative AI</div>
+          <div class="skill-list">
+            <span class="skill-pill">RAG</span>
+            <span class="skill-pill">OpenAI LLM</span>
+            <span class="skill-pill">LLaMA</span>
+            <span class="skill-pill">Vector Databases</span>
+            <span class="skill-pill">LangGraph</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Frameworks</div>
+          <div class="skill-list">
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">Apache Spark</span>
+            <span class="skill-pill">PyTorch</span>
+            <span class="skill-pill">Keras</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Data Visualization</div>
+          <div class="skill-list">
+            <span class="skill-pill">Tableau</span>
+            <span class="skill-pill">Matplotlib</span>
+            <span class="skill-pill">Microsoft Excel</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Industry Technologies</div>
+          <div class="skill-list">
+            <span class="skill-pill">API</span>
+            <span class="skill-pill">Linux</span>
+            <span class="skill-pill">AWS</span>
+            <span class="skill-pill">ETL / ELT</span>
+            <span class="skill-pill">Azure</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">Postman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">Education</div>
+        <h2 class="section-title">Academic Background</h2>
+      </div>
+
+      <div class="education-grid stagger-children reveal">
+        <div class="edu-card">
+          <div class="edu-degree">Master of Science, Computer Science</div>
+          <div class="edu-school">Arizona State University</div>
+          <div class="edu-meta">
+            <span>📍 Tempe, AZ, USA</span>
+            <span>📅 Aug 2024 – May 2026</span>
+          </div>
+          <div class="edu-gpa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            CGPA: 4.00 / 4.00
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-degree">B.Tech, Computer Science</div>
+          <div class="edu-school">Manipal Academy of Higher Education</div>
+          <div class="edu-meta">
+            <span>📍 Manipal, India</span>
+            <span>📅 Jul 2017 – Jul 2021</span>
+          </div>
+          <div class="edu-gpa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            CGPA: 8.08 / 10.00
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section">
+      <div class="section-header reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">
+          I'm always open to discussing new opportunities, interesting projects, or just saying hi.
+        </p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-links">
+          <a href="mailto:avenk138@asu.edu" class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">avenk138@asu.edu</div>
+            </div>
+          </a>
+
+          <a href="tel:+16027510672" class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">(602) 751-0672</div>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in/advaith-v/" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">linkedin.com/in/advaith-v</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/vadvaith" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">🐙</div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">github.com/vadvaith</div>
+            </div>
+          </a>
+
+          <a href="https://vadvaith.github.io" class="contact-item">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <div class="contact-label">Website</div>
+              <div class="contact-value">vadvaith.github.io</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+      <p>&copy; 2026 Advaith Venkatsubramanian. Built with ❤️</p>
+    </footer>
   </main>
 
-  <!-- typed.js 
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Pythonist", "Developer", "Fast Learner"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script> -->
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <!-- ═══════════════════════════════════════════
+       JAVASCRIPT
+       ═══════════════════════════════════════════ -->
   <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
+    // ── Mobile Navigation Toggle ──
+    const hamburger = document.getElementById('hamburger');
+    const sideNav = document.getElementById('side-nav');
+    const overlay = document.getElementById('mobile-overlay');
+
+    function toggleMobileMenu() {
+      hamburger.classList.toggle('active');
+      sideNav.classList.toggle('mobile-open');
+      overlay.classList.toggle('show');
+      document.body.style.overflow = sideNav.classList.contains('mobile-open') ? 'hidden' : '';
+    }
+
+    hamburger.addEventListener('click', toggleMobileMenu);
+    overlay.addEventListener('click', toggleMobileMenu);
+
+    // Close on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) {
+          toggleMobileMenu();
+        }
+      });
+    });
+
+    // ── Active Nav Link on Scroll ──
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    function updateActiveLink() {
+      const scrollY = window.scrollY + 200;
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute('id');
+
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('data-section') === sectionId) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+
+    // ── Scroll Reveal Animation ──
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // ── Smooth scroll for same-page anchors ──
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
   </script>
 </body>
 

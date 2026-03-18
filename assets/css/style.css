@@ -8,32 +8,37 @@
 
 /* ── CSS Custom Properties ── */
 :root {
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #12121a;
+  --bg-primary: #080c0a;
+  --bg-secondary: #0e1512;
   --bg-card: rgba(255, 255, 255, 0.03);
   --bg-card-hover: rgba(255, 255, 255, 0.06);
   --bg-glass: rgba(255, 255, 255, 0.04);
   --border-subtle: rgba(255, 255, 255, 0.06);
   --border-hover: rgba(255, 255, 255, 0.12);
 
-  --text-primary: #f0f0f5;
-  --text-secondary: #a0a0b0;
-  --text-muted: #6a6a7a;
+  --text-primary: #f0f5f2;
+  --text-secondary: #a0b0a8;
+  --text-muted: #6a7a72;
 
-  --accent-1: #6366f1;   /* Indigo */
-  --accent-2: #8b5cf6;   /* Violet */
-  --accent-3: #a78bfa;   /* Light Violet */
-  --accent-4: #06b6d4;   /* Cyan */
-  --accent-5: #22d3ee;   /* Light Cyan */
+  --accent-1: #10b981;
+  /* Emerald */
+  --accent-2: #14b8a6;
+  /* Teal */
+  --accent-3: #34d399;
+  /* Light Emerald */
+  --accent-4: #f59e0b;
+  /* Amber */
+  --accent-5: #fbbf24;
+  /* Light Amber */
 
   --gradient-primary: linear-gradient(135deg, var(--accent-1), var(--accent-2), var(--accent-4));
   --gradient-text: linear-gradient(135deg, var(--accent-3), var(--accent-5));
-  --gradient-card: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(6, 182, 212, 0.04));
+  --gradient-card: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(245, 158, 11, 0.04));
 
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.15);
+  --shadow-glow: 0 0 40px rgba(16, 185, 129, 0.15);
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -49,7 +54,9 @@
 }
 
 /* ── Reset & Base ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -79,16 +86,21 @@ body::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.06) 0%, transparent 50%),
-              radial-gradient(ellipse at 80% 20%, rgba(6, 182, 212, 0.04) 0%, transparent 50%),
-              radial-gradient(ellipse at 50% 80%, rgba(139, 92, 246, 0.04) 0%, transparent 50%);
+  background: radial-gradient(ellipse at 20% 50%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(245, 158, 11, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(20, 184, 166, 0.04) 0%, transparent 50%);
   z-index: -1;
   animation: ambientDrift 20s ease-in-out infinite alternate;
 }
 
 @keyframes ambientDrift {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  100% { transform: translate(-2%, 2%) rotate(3deg); }
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-2%, 2%) rotate(3deg);
+  }
 }
 
 a {
@@ -115,13 +127,16 @@ img {
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg-primary);
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(99, 102, 241, 0.3);
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(99, 102, 241, 0.5);
 }
@@ -298,9 +313,11 @@ img {
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
+
 .hamburger.active span:nth-child(2) {
   opacity: 0;
 }
+
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
@@ -348,7 +365,7 @@ img {
   right: -10%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%);
   border-radius: 50%;
   animation: heroGlow 8s ease-in-out infinite alternate;
 }
@@ -360,14 +377,19 @@ img {
   left: 10%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(6, 182, 212, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   animation: heroGlow 10s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes heroGlow {
-  0% { transform: scale(1) translate(0, 0); }
-  100% { transform: scale(1.2) translate(20px, -20px); }
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+
+  100% {
+    transform: scale(1.2) translate(20px, -20px);
+  }
 }
 
 .hero-content {
@@ -400,8 +422,17 @@ img {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(0.8); }
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
 }
 
 .hero h1 {
@@ -553,7 +584,7 @@ img {
 }
 
 /* Section divider */
-.section + .section {
+.section+.section {
   border-top: 1px solid var(--border-subtle);
 }
 
@@ -1043,6 +1074,7 @@ img {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1061,20 +1093,37 @@ img {
 }
 
 /* Staggered children */
-.stagger-children > * {
+.stagger-children>* {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.stagger-children.visible > *:nth-child(1) { transition-delay: 0.05s; }
-.stagger-children.visible > *:nth-child(2) { transition-delay: 0.1s; }
-.stagger-children.visible > *:nth-child(3) { transition-delay: 0.15s; }
-.stagger-children.visible > *:nth-child(4) { transition-delay: 0.2s; }
-.stagger-children.visible > *:nth-child(5) { transition-delay: 0.25s; }
-.stagger-children.visible > *:nth-child(6) { transition-delay: 0.3s; }
+.stagger-children.visible>*:nth-child(1) {
+  transition-delay: 0.05s;
+}
 
-.stagger-children.visible > * {
+.stagger-children.visible>*:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.stagger-children.visible>*:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+.stagger-children.visible>*:nth-child(4) {
+  transition-delay: 0.2s;
+}
+
+.stagger-children.visible>*:nth-child(5) {
+  transition-delay: 0.25s;
+}
+
+.stagger-children.visible>*:nth-child(6) {
+  transition-delay: 0.3s;
+}
+
+.stagger-children.visible>* {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1152,7 +1201,8 @@ img {
     flex-direction: column;
   }
 
-  .btn-primary, .btn-secondary {
+  .btn-primary,
+  .btn-secondary {
     text-align: center;
     justify-content: center;
   }

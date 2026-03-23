@@ -650,7 +650,7 @@ img {
    ═══════════════════════════════════════════ */
 .timeline {
   position: relative;
-  padding-left: 2.5rem;
+  padding-left: 30px;
 }
 
 .timeline::before {
@@ -676,7 +676,7 @@ img {
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -2.5rem;
+  left: -30px;
   top: 6px;
   width: 12px;
   height: 12px;

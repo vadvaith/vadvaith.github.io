@@ -290,24 +290,21 @@
               <span class="timeline-date">Mar 2025 – Present</span>
             </div>
             <ul class="timeline-bullets">
-              <li>Engineered a <strong>RAG-based AI assistant</strong> using large language models, vector search, and Python to automate activity creation
-                workflows, cutting manual content entry time by <strong>60%</strong>.</li>
-              <li>Developed <strong>9 Tableau visualizations</strong> for St. Mary's Food Bank analyzing donation patterns, volume trends, and regional
-                distribution, surfacing insights that informed donor outreach strategy.</li>
-              <li>Built an <strong>NLP-driven resume shortlisting pipeline</strong> in Python that parsed resumes and cover letters, computed semantic
-                similarity against job descriptions using transformer embeddings, and ranked candidates — reducing screening time by <strong>75%</strong>.</li>
-              <li>Engineered an <strong>LLM-powered onboarding chatbot</strong> that helped new team members access resources, resolve process queries,
-                and auto-generate personalized onboarding agendas and working schedules, reducing agenda and schedule creation time by <strong>30%</strong>.</li>
-              <li>Achieved <strong>WCAG 2.x and ADA compliance</strong> across the Collaboratory platform by implementing ARIA labeling, keyboard
-                navigation, and semantic HTML for diverse user accessibility.</li>
+              <li>Engineered a <strong>RAG-based AI assistant</strong> using large language models, vector search, and Python to automate activity creation workflows, cutting manual content entry time by <strong>60%</strong>.</li>
+              <li>Contributed to the <strong>Collaboratory web platform</strong> by implementing bug fixes and UI enhancements using JavaScript, React, Golang, Docker, and PostgreSQL, improving system usability and overall application stability.</li>
+              <li>Engineered an <strong>LLM-powered onboarding chatbot</strong> using LangChain, GPT-4, ChromaDB, and HuggingFace Sentence Transformers — implementing a RAG pipeline over internal PDF/Markdown docs to answer process queries and auto-generate personalized onboarding schedules, reducing agenda creation time by <strong>30%</strong>.</li>
+              <li>Developed <strong>9 Tableau visualizations</strong> for St. Mary's Food Bank analyzing donation patterns, volume trends, and regional distribution, surfacing insights that informed donor outreach strategy.</li>
+              <li>Built a <strong>resume screening pipeline</strong> in Python using PyPDF2 and regex-based keyword extraction to parse candidate PDFs, score applicants against job description criteria, and auto-populate Excel trackers via openpyxl — reducing manual screening time by <strong>75%</strong> for student worker hiring.</li>
+              <li>Achieved <strong>WCAG 2.x and ADA compliance</strong> across the Collaboratory platform by implementing ARIA labeling, keyboard navigation, and semantic HTML for diverse user accessibility.</li>
             </ul>
             <div class="timeline-tech">
               <span class="tech-tag">Python</span>
+              <span class="tech-tag">JavaScript/React</span>
               <span class="tech-tag">LLMs</span>
               <span class="tech-tag">RAG</span>
-              <span class="tech-tag">NLP</span>
+              <span class="tech-tag">PostgreSQL</span>
               <span class="tech-tag">Tableau</span>
-              <span class="tech-tag">Vector Search</span>
+              <span class="tech-tag">Docker</span>
               <span class="tech-tag">WCAG/ADA</span>
             </div>
           </div>
@@ -332,8 +329,7 @@
                 large-scale MDM dataset, reducing data redundancy by <strong>40%</strong> and cutting downstream processing time by <strong>25%</strong>.</li>
               <li>Designed an <strong>OCR document processing service</strong> using AWS Textract, S3, and EC2 to extract and structure data from
                 unstructured documents at scale, reducing manual data entry time by <strong>30%</strong>.</li>
-              <li>Owned <strong>CI/CD workflows</strong> across multiple services and conducted systematic code reviews, maintaining production stability
-                and ensuring zero-downtime releases.</li>
+              <li>Owned <strong>Jenkins and Chef CI/CD workflows</strong> across multiple services and conducted systematic code reviews, maintaining production stability and ensuring zero-downtime releases.</li>
             </ul>
             <div class="timeline-tech">
               <span class="tech-tag">Python</span>
@@ -374,8 +370,7 @@
             85% relevance · &lt;8s response
           </div>
           <p class="project-description">
-            End-to-end backend-driven AI assistant using Python, AWS, Pinecone and Chainlit UI. Exposes
-            API-based retrieval services with 85% relevance and sub-8-second response time.
+            Developed an end-to-end AI assistant for medical Q&A on diabetes and cardiovascular diseases using a retrieval-augmented generation architecture with vector search, achieving 85% relevance score with sub-8-second response time.
           </p>
           <div class="project-tech">
             <span class="tech-tag">RAG</span>
@@ -393,19 +388,47 @@
           </div>
         </div>
 
+        <!-- Intrusion Detection System -->
+        <div class="project-card">
+          <div class="project-icon">🛡️</div>
+          <div class="project-title">Intrusion Detection System</div>
+          <div class="project-metric">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+              <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>
+            >0.95 ROC-AUC
+          </div>
+          <p class="project-description">
+            Built a production-grade intrusion detection system on the NSL-KDD dataset (125K+ records), implementing automated retraining pipelines, model lifecycle management, real-time inference APIs, and drift detection.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">MLflow</span>
+            <span class="tech-tag">Airflow</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Evidently</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/vadvaith/Intrusion-Detection-MLOps" target="_blank" rel="noopener" class="project-link" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
         <!-- Dengue Forecasting -->
         <div class="project-card">
           <div class="project-icon">🦟</div>
-          <div class="project-title">Dengue Outbreak Time Series Forecasting</div>
+          <div class="project-title">Dengue Outbreak Forecasting</div>
           <p class="project-description">
-            Leveraged the ARIMA algorithm to forecast dengue cases reported across different regions using historical
-            data. Built analytical models for time series prediction and epidemiological trend analysis.
+            Applied ARIMA-based time series modeling on multi-region historical epidemiological data to forecast dengue case counts, enabling health resource planning.
           </p>
           <div class="project-tech">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">ARIMA</span>
             <span class="tech-tag">Time Series</span>
-            <span class="tech-tag">Pandas</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/vadvaith/dengue-time-series-forecasting" target="_blank" rel="noopener" class="project-link" aria-label="GitHub">
@@ -420,59 +443,13 @@
           <div class="project-icon">🏠</div>
           <div class="project-title">Airbnb Listings ELT Pipeline</div>
           <p class="project-description">
-            Designed an automated ELT pipeline using Snowflake, dbt, SQL, and AWS S3 to ingest, transform, and
-            validate large-scale listing data, producing analytics-ready datasets for downstream reporting and trend analysis.
+            Built an end-to-end ELT pipeline to ingest and transform Airbnb listings data, incorporating data quality tests, and generated analytics on a Streamlit dashboard.
           </p>
           <div class="project-tech">
             <span class="tech-tag">Snowflake</span>
             <span class="tech-tag">dbt</span>
             <span class="tech-tag">SQL</span>
-            <span class="tech-tag">AWS S3</span>
-          </div>
-        </div>
-
-        <!-- Age-Related Conditions -->
-        <div class="project-card">
-          <div class="project-icon">🧬</div>
-          <div class="project-title">Age-Related Condition Detection</div>
-          <div class="project-metric">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2.5">
-              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-              <polyline points="17 6 23 6 23 12"></polyline>
-            </svg>
-            93% Accuracy · 110K+ Records
-          </div>
-          <p class="project-description">
-            Preprocessed and normalized 110K+ health records to train a binary classification model predicting
-            age-related health conditions with 93% accuracy.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">TensorFlow</span>
-            <span class="tech-tag">Scikit-learn</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/vadvaith/KaggleCompetitions" target="_blank" rel="noopener" class="project-link" aria-label="GitHub">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-              View Code
-            </a>
-          </div>
-        </div>
-
-        <!-- HPE Troubleshooting Chatbot -->
-        <div class="project-card">
-          <div class="project-icon">🤖</div>
-          <div class="project-title">HPE Troubleshooting Chatbot</div>
-          <p class="project-description">
-            Led a team to build a conversational AI system using intent classification and entity extraction
-            to retrieve technical manuals and automate customer support responses, reducing manual support workload.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">NLP</span>
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">Rasa</span>
-            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Streamlit</span>
           </div>
         </div>
       </div>
@@ -490,62 +467,86 @@
 
       <div class="skills-grid stagger-children reveal">
         <div class="skill-category">
-          <div class="skill-category-title">Languages & Libraries</div>
+          <div class="skill-category-title">Languages</div>
           <div class="skill-list">
             <span class="skill-pill">Python</span>
-            <span class="skill-pill">C</span>
-            <span class="skill-pill">C++</span>
-            <span class="skill-pill">HTML/CSS</span>
-            <span class="skill-pill">Go</span>
-            <span class="skill-pill">React</span>
             <span class="skill-pill">SQL</span>
+            <span class="skill-pill">R</span>
+            <span class="skill-pill">JavaScript/TypeScript</span>
+            <span class="skill-pill">Go</span>
             <span class="skill-pill">Shell Scripting</span>
           </div>
         </div>
 
         <div class="skill-category">
-          <div class="skill-category-title">Generative AI</div>
+          <div class="skill-category-title">Machine Learning</div>
+          <div class="skill-list">
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">PyTorch</span>
+            <span class="skill-pill">Random Forest</span>
+            <span class="skill-pill">SVM</span>
+            <span class="skill-pill">TF-IDF</span>
+            <span class="skill-pill">ARIMA</span>
+            <span class="skill-pill">Apache Spark</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Generative AI & NLP</div>
           <div class="skill-list">
             <span class="skill-pill">RAG</span>
-            <span class="skill-pill">OpenAI LLM</span>
             <span class="skill-pill">LLaMA</span>
-            <span class="skill-pill">Vector Databases</span>
             <span class="skill-pill">LangGraph</span>
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">Vector Search</span>
+            <span class="skill-pill">Named Entity Recognition</span>
           </div>
         </div>
 
         <div class="skill-category">
-          <div class="skill-category-title">Frameworks</div>
+          <div class="skill-category-title">Databases & Data Engineering</div>
           <div class="skill-list">
-            <span class="skill-pill">TensorFlow</span>
-            <span class="skill-pill">Flask</span>
-            <span class="skill-pill">Apache Spark</span>
-            <span class="skill-pill">PyTorch</span>
-            <span class="skill-pill">Keras</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">Snowflake</span>
+            <span class="skill-pill">Pinecone</span>
+            <span class="skill-pill">dbt</span>
+            <span class="skill-pill">ETL/ELT Pipelines</span>
+            <span class="skill-pill">Fuzzy Matching</span>
+            <span class="skill-pill">MDM</span>
           </div>
         </div>
 
         <div class="skill-category">
-          <div class="skill-category-title">Data Visualization</div>
+          <div class="skill-category-title">Cloud & Infrastructure</div>
+          <div class="skill-list">
+            <span class="skill-pill">AWS (S3, EC2, Textract)</span>
+            <span class="skill-pill">Azure</span>
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">Jenkins</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Data Visualization & Analytics</div>
           <div class="skill-list">
             <span class="skill-pill">Tableau</span>
             <span class="skill-pill">Matplotlib</span>
             <span class="skill-pill">Microsoft Excel</span>
+            <span class="skill-pill">Statistical Modeling</span>
+            <span class="skill-pill">A/B Testing</span>
           </div>
         </div>
 
         <div class="skill-category">
-          <div class="skill-category-title">Industry Technologies</div>
+          <div class="skill-category-title">Frameworks & APIs</div>
           <div class="skill-list">
-            <span class="skill-pill">API</span>
-            <span class="skill-pill">Linux</span>
-            <span class="skill-pill">AWS</span>
-            <span class="skill-pill">ETL / ELT</span>
-            <span class="skill-pill">Azure</span>
-            <span class="skill-pill">Git</span>
-            <span class="skill-pill">PostgreSQL</span>
-            <span class="skill-pill">Docker</span>
-            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">REST APIs</span>
           </div>
         </div>
       </div>
@@ -574,6 +575,9 @@
             </svg>
             CGPA: 4.00 / 4.00
           </div>
+          <div class="edu-coursework" style="font-size: 0.9em; margin-top: 10px; color: var(--text-secondary); line-height: 1.5;">
+            <strong>Coursework:</strong> Statistical Machine Learning, Data Mining, Data Visualization, Data Processing, Data Structures, Software Testing
+          </div>
         </div>
 
         <div class="edu-card">
@@ -590,6 +594,9 @@
               <polyline points="22 4 12 14.01 9 11.01"></polyline>
             </svg>
             CGPA: 8.08 / 10.00
+          </div>
+          <div class="edu-coursework" style="font-size: 0.9em; margin-top: 10px; color: var(--text-secondary); line-height: 1.5;">
+            <strong>Coursework:</strong> Machine Learning, Pattern Recognition, Artificial Intelligence, Design of Algorithms, Distributed Database Systems
           </div>
         </div>
       </div>
